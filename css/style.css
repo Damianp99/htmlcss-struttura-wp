@@ -1,7 +1,7 @@
 /* generics */
 
 *{
-    margin: 0;
+    margin:0px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -10,6 +10,7 @@
     display: table;
     content: '';
     clear: both;
+    
 }
 
 /* body */
@@ -18,11 +19,13 @@
 
 header{
     height: 100px;
+    margin-bottom: 10px;
     background-color: #E579E6 ;
    
 }
 
 .contenuto-extra{
+    margin-bottom: 10px;
     height: 500px;
     background-color:#E1D67A ;
 }
@@ -30,15 +33,35 @@ header{
 /* main */
 
 .header{
+    margin-bottom: 10px;
     height: 100px;
     background-color: #ABCFE7;
 }
 
 .side-bar{
-    height: 300px;
+    width: 25%;
+    height: 500px;
     background-color:#ABCFE7;
+    float: left;
+   
+    
 }
 
+
 .main-content{
+    width: calc(50% - 30px);
+    margin: 0 15px;
+    height: 500px;
+    background-color:#ABCFE7;
+    float: left;
     
+   
+}
+
+/* footer */
+
+footer{
+    margin-top: 10px;
+    height: 100px;
+    background-color: #8801FE;
 }
